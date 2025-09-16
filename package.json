@@ -1,0 +1,23 @@
+{
+  "name": "vscodefiles",
+  "version": "1.0.0",
+  "description": "Learn testing via Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/P-Kuszyk/forTesting.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/P-Kuszyk/forTesting/issues"
+  },
+  "homepage": "https://github.com/P-Kuszyk/forTesting#readme",
+  "devDependencies": {
+    "cypress": "^15.2.0"
+  }
+}
