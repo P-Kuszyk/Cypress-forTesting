@@ -6,3 +6,5 @@ Learn testing via Cypress
 2. Create simple functionalities 
 
 3. Create simply tests via CypressCypress
+
+4. Test
