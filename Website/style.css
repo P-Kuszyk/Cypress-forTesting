@@ -14,3 +14,12 @@
     background-color: var(--primaryColor);
     color: var(--fontColor);
 }
+
+
+/* REGISTER */
+
+#SG{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
