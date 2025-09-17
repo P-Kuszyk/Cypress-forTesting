@@ -20,7 +20,7 @@ it('Check if the title of the site is wrong', () =>{
 describe('#3 Attempt', () => {
   it('Check buttons', () => {
     cy.visit(linkToWebsite)
-    cy.viewport(1920, 1080) // Ustawienie odpowiedniej rozdzielczości
+    //cy.viewport(1920, 1080) // Ustawienie odpowiedniej rozdzielczości | ZMIANA W CYPRESS.CONFIG.JS 
     cy.get('.button.is-primary').click()
     cy.url().should('include', '/Website/register.html')
   })
@@ -29,7 +29,7 @@ describe('#3 Attempt', () => {
 describe('#4 Attempt', ()=> {
   it('Back to Home Page', () => {
     cy.visit('/Website/register.html')
-    cy.get('.button.is-link').click()
+    cy.get('#SG').click() // Wyszukiwanie elementu po ID 
     cy.url().should('include', linkToWebsite)
   })
 })
