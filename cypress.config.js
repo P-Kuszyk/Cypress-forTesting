@@ -5,5 +5,9 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
+    baseUrl: "http://127.0.0.1:5500/",
+    /* ZMIANA NA DOMYŚLNIE WYŚWIETLANIE TESTÓW W 1920x1080 */
+    viewportWidth: 1920,
+    viewportHeight: 1080
   },
 });
