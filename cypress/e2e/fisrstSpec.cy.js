@@ -20,7 +20,16 @@ it('Check if the title of the site is wrong', () =>{
 describe('#3 Attempt', () => {
   it('Check buttons', () => {
     cy.visit(linkToWebsite)
-    cy.get('button is-primary').click()
-    cy.url().should('include', '/register.html')
+    cy.viewport(1920, 1080) // Ustawienie odpowiedniej rozdzielczości
+    cy.get('.button.is-primary').click()
+    cy.url().should('include', '/Website/register.html')
+  })
+})
+
+describe('#4 Attempt', ()=> {
+  it('Back to Home Page', () => {
+    cy.visit('/Website/register.html')
+    cy.get('.button.is-link').click()
+    cy.url().should('include', linkToWebsite)
   })
 })
