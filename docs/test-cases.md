@@ -118,3 +118,63 @@ Kroki testowe:
 4. Odśwież aplikacje 
 5. Sprawdzenie czy pole tekstowe jest puste
 6. Wyczyść zawartość *Textarea* za pomocą przycisku *Usuń*
+
+## #6 Formularze i listy
+**TC_011**
+Cel testu: Sprawdzenie czy możliwe jest zaznaczenie wszystkich opcji w liście rozwijanej.
+Warunki wstępne: 
+- Aplikacja zostanie uruchomiona w rozdzielczości 1920x1080.
+- Dostępna jest lista wielokrotnego wyboru
+Oczekiwany rezultat: W liście wielokrotnego wyboru są wybrane wszystkie pozycje.
+Kroki testowe:
+1. Uruchom aplikacje 
+2. Odznacz wszystkie pozycje w liście wielokrotnego wyboru
+
+**TC_012**
+Cel testu: Sprwadzenie możliwości zaznaczenie wyboru przy jednej pozycji w liście jednokrotnego wyboru.
+Warunki wstępne: 
+- Aplikacja zostanie uruchomiona w rozdzielczości 1920x1080.
+- Dostępna jest lista jednokrotnego wyboru
+Oczekiwany rezultat: W liście jednokrotnego wyboru jest wybrana jedna pozycja.
+Kroki testowe:
+1. Uruchom aplikacje 
+2. Odznacz jedno pole w liście jednokrotnego wyboru
+
+**TC_013**
+Cel testu: Sprawdzenie możliwości zmiany wyboru domyślnej wartości w liście rozwijanej.
+Warunki wstępne: 
+- Aplikacja zostanie uruchomiona w rozdzielczości 1920x1080.
+- Dostępna jest lista rozwijana
+Oczekiwany rezultat: Wybrana jest inna opcja w liście rozwijanej, niż domyślna.
+Kroki testowe:
+1. Uruchom aplikacje 
+2. Wybierz inna opcje z listy rozwijanej, niż domyślna
+
+**TC_014**
+Cel testu: Sprawdzenie czy możliwe jest zaznaczenie wszystkich opcji w liście wielokrotnego wyboru, zaznaczenie jednej opcji w liście jednokrotnego wyboru oraz wybór z listy rozwijanej.
+Warunki wstępne: 
+- Aplikacja zostanie uruchomiona w rozdzielczości 1920x1080.
+- Dostępna jest lista wielokrotnego wyboru
+- Dostępna jest lista jednokrotnego wyboru
+- Dostępna jest lista rozwijana
+Oczekiwany rezultat: W liście wielokrotnego wyboru są wybrane wszystkie pozycje, w jednokrotnej liście jedno pole, a z listy rozwijanej wybrana jest inna opcja niż domyślna.
+Kroki testowe:
+1. Uruchom aplikacje 
+2. Odznacz wszystkie pozycje w liście wielokrotnego wyboru
+3. Odznacz jedno pole w liście jednokrotnego wyboru
+4. Wybierz inne pole niż *Pies* z listy rozwijanej
+
+**TC_015**
+Cel testu: Zaznaczanie i odznaczanie pozycji w liście wielokrotnego oraz jednokrotnego wyboru.
+Warunki wstępne: 
+- Aplikacja zostanie uruchomiona w rozdzielczości 1920x1080.
+- Dostępna jest lista wielokrotnego wyboru
+- Dostępna jest lista jednokrotnego wyboru
+- Dostępna jest lista rozwijana
+Oczekiwany rezultat: Z listy wielokrotnego wybory zaznaczone są wszystkie opcje, następnie w liście jednokrotnego wyboru zaznaczona jest jedna opcja, później każda zaznaczona opcja zostaje odznaczona.
+Kroki testowe:
+1. Uruchom aplikacje 
+2. Zaznacz wszystkie opcje w liście wielokrotnego wyboru
+3. Zaznacz jedną opcje w liście jednokrotnego wyboru
+4. Odnznacz wszystkie opcje w liście wielokronego wyboru
+5. Odznacz jedną opcję w liście jednokrotnego wyboru
