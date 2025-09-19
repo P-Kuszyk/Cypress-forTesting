@@ -62,7 +62,7 @@ describe('#5 Textarea', () => {
     cy.get('.btnDelete').click()
     cy.get('.textA').should('be.empty')
   }),
-  it('Chec if the text stay in textarea after refresh', () => {
+  it('Check if the text stay in textarea after refresh', () => {
     cy.visit(linkToWebsite)
     cy.get('.textA').type('Random text')
     cy.get('.textA').invoke('val').should('include', 'Random')
@@ -70,5 +70,53 @@ describe('#5 Textarea', () => {
     cy.reload()
     cy.get('.textA').invoke('val').should('not.be.empty')
     cy.get('.btnDelete').click()
+  })
+})
+
+describe('#6 Lists', ()=> {
+  it('Check if there is a possibility to select all options from the multiple-choice list', ()=> {
+    cy.visit(linkToWebsite)
+    cy.get('[data-cy-checkbox="listCheckboxCy"]').find('input[type="checkbox"]').check() 
+    cy.get('[data-cy-checkbox="listCheckboxCy"]').find('input[type="checkbox"]').should('be.checked')
+    /* Dany test najpierw znajduje wszystkie możliwe opcje z listy, potem je zaznacza, a na samym końcu iteruje po każdej
+    opcji, gdzie następnie sprawdza czy każdy jest zaznaczony */
+  }),
+  it('Check if there is a possibility to select one options from the single-selection list', ()=> {
+    cy.visit(linkToWebsite)
+    cy.get('[data-cy-radio="listRadioCy"]')
+    cy.get('[data-cy-radio="White"]').check()
+    cy.get('[data-cy-radio="White"]').should('be.checked')
+  }),
+  it('Check if there is a possibility to change the default value of the drop-down list', ()=> {
+    cy.visit(linkToWebsite)
+    cy.get('[data-cy-select="listSelectCy"]')
+    cy.get('[data-cy-select="listSelectCy"]').select('lion') /* musi być brana wartość VALUE (W SELECT), a nie DATA-CY-SELECT="LION" */
+    cy.get('[data-cy-select="listSelectCy"]').should('have.value', "lion")
+  }),
+  it('Check if there is a possibility to change all values in all lists', ()=> {
+    cy.visit(linkToWebsite)
+    cy.get('[data-cy-checkbox="listCheckboxCy"]').find('input[type="checkbox"]').check()
+    cy.get('[data-cy-checkbox="listCheckboxCy"]').find('input[type="checkbox"]').should('be.checked')
+    cy.get('[data-cy-radio="Black"').check()
+    cy.get('[data-cy-radio="Black"').should('be.checked')
+    cy.get('[data-cy-select="listSelectCy"]').select('fish')
+    cy.get('[data-cy-select="listSelectCy"]').should('have.value', 'fish')
+  }),
+  it('Check and uncheck checkboxes in lists', () => {
+    cy.visit(linkToWebsite)
+    /* MULTI-SELECTION LIST */
+    cy.get('[data-cy-checkbox="Apple"]').check()
+    cy.get('[data-cy-checkbox="Apple"]').should('be.checked')
+    cy.get('[data-cy-checkbox="Pearl"]').check()
+    cy.get('[data-cy-checkbox="Pearl"]').should('be.checked')
+    cy.get('[data-cy-checkbox="Apple"]').uncheck()
+    cy.get('[data-cy-checkbox="Apple"]').should('not.be.checked')
+    cy.get('[data-cy-checkbox="Pearl"]').uncheck()
+    cy.get('[data-cy-checkbox="Pearl"]').should('not.be.checked')
+    /* SINGLE-SELECTION LIST */
+    cy.get('[data-cy-radio="Red"]').check()
+    cy.get('[data-cy-radio="Red"]').should('be.checked')
+    cy.get('[data-cy-radio="Green"]').check()
+    cy.get('[data-cy-radio="Red"]').should('not.be.checked')
   })
 })

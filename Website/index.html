@@ -53,27 +53,27 @@
     </div>
   </div>
   <div class="listAllDiv">
-    <div class="listCheckbox">
+    <div class="listCheckbox" data-cy-checkbox="listCheckboxCy">
         <h2> Wybierz owoc: </h2>
-        <input type="checkbox"> Jabłko <br>
-        <input type="checkbox"> Banan <br>
-        <input type="checkbox"> Pomarańcza <br>
-        <input type="checkbox"> Gruszka <br>
+        <input type="checkbox" value="apple" data-cy-checkbox="Apple" > Jabłko <br>
+        <input type="checkbox" value="banana" data-cy-checkbox="Banana" > Banan <br>
+        <input type="checkbox" value="orange" data-cy-checkbox="Orange" > Pomarańcza <br>
+        <input type="checkbox" value="pearl" data-cy-checkbox="Pearl" > Gruszka <br>
     </div>
-    <div class="listRadio">
+    <div class="listRadio" data-cy-radio="listRadioCy">
       <h2> Wybierz jeden kolor: </h2>
-      <input type="radio"> Zielony <br>
-      <input type="radio"> Czerwony <br>
-      <input type="radio"> Biały <br>
-      <input type="radio"> Czarny <br>
+      <input type="radio" name="color" value="green" data-cy-radio="Green" > Zielony <br>
+      <input type="radio" name="color" value="red" data-cy-radio="Red" > Czerwony <br>
+      <input type="radio" name="color" value="white" data-cy-radio="White" > Biały <br>
+      <input type="radio" name="color" value="black" data-cy-radio="Black" > Czarny <br>
     </div>
     <div class="listSelect">
       <h2> Wybierz zwierzę: </h2>
-      <select name="Pies">
-        <option value="dog">Pies</option>
-        <option value="cat">Kot</option>
-        <option value="lion">Lew</option>
-        <option value="fish">Ryba</option>
+      <select name="Pies" data-cy-select="listSelectCy">
+        <option value="dog" data-cy-select="Dog" > Pies</option>
+        <option value="cat" data-cy-select="Cat" > Kot</option>
+        <option value="lion" data-cy-select="Lion" > Lew</option>
+        <option value="fish" data-cy-select="Fish" > Ryba</option>
       </select>
     </div>
   </div>

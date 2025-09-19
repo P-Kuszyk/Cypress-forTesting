@@ -121,7 +121,7 @@ Kroki testowe:
 
 ## #6 Formularze i listy
 **TC_011**
-Cel testu: Sprawdzenie czy możliwe jest zaznaczenie wszystkich opcji w liście rozwijanej.
+Cel testu: Sprawdzenie czy możliwe jest zaznaczenie wszystkich opcji w liście wielokrotnego wyboru.
 Warunki wstępne: 
 - Aplikacja zostanie uruchomiona w rozdzielczości 1920x1080.
 - Dostępna jest lista wielokrotnego wyboru
