@@ -4,13 +4,13 @@
     --backgroundColor: #d3d3d3;
     --secondaryColor: #000000;
     --fontColor: #ffffff;
+    --greenBackground: #019529;
 }
 
-.body{
+body{
 
     width: 100vw;
     height: 100vh;
-
     background-color: var(--backgroundColor);
     color: var(--fontColor);
 }
@@ -64,5 +64,18 @@ button{
     justify-content: center;
     align-items: center;
     gap: 5vw;
+    background-color: azure;
+    color: black;
+    width: 60vw;
+    height: 15vh;
+    margin-left: 20vw;
+    border-radius: 10px;
 }
 
+.divColorChange{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2vh;
+}

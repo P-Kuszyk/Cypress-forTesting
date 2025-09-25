@@ -174,7 +174,7 @@ Warunki wstępne:
 Oczekiwany rezultat: Z listy wielokrotnego wybory zaznaczone są wszystkie opcje, następnie w liście jednokrotnego wyboru zaznaczona jest jedna opcja, później każda zaznaczona opcja zostaje odznaczona.
 Kroki testowe:
 1. Uruchom aplikacje 
-2. Zaznacz wszystkie opcje w liście wielokrotnego wyboru
+2. Zaznacz dwie opcje w liście wielokrotnego wyboru
 3. Zaznacz jedną opcje w liście jednokrotnego wyboru
 4. Odnznacz wszystkie opcje w liście wielokronego wyboru
 5. Odznacz jedną opcję w liście jednokrotnego wyboru
