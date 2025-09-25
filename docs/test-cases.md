@@ -178,3 +178,72 @@ Kroki testowe:
 3. Zaznacz jedną opcje w liście jednokrotnego wyboru
 4. Odnznacz wszystkie opcje w liście wielokronego wyboru
 5. Odznacz jedną opcję w liście jednokrotnego wyboru
+
+**TC_016**
+Cel testu: Sprawdź działanie przycisku *Zmień kolor strony*
+Warunki wstępne: 
+- Aplikacja zostanie uruchomiona w rozdzielczości 1920x1080.
+- Przycisk *Zmień kolor strony* istnieje na aplikacji
+- Przycisk jest responsywny
+Oczekiwany rezultat: Po wciśnięciu przycisku tło strony oraz textarea i div z form zmienia swój kolor.
+Kroki testowe:
+1. Uruchom aplikacje
+2. Wciśnij przycisk *Zmień kolor strony* 
+3. Sprwadź tło wymienionych elementów i porównaj go z kolorem domyślnym
+
+**TC_017**
+Cel testu: Sprawdź działanie przycisku *Zmień kolor strony* oraz powrót do ustawień domyślnych
+Warunki wstępne: 
+- Aplikacja zostanie uruchomiona w rozdzielczości 1920x1080.
+- Przycisk *Zmień kolor strony* istnieje na aplikacji
+- Przycisk jest responsywny
+Oczekiwany rezultat: Po wciśnięciu przycisku tło strony oraz textarea i div z form zmienia swój kolor, a następnie po jeszcze jedynm wciśnięciu kolory wracają do wartości domyślnych.
+Kroki testowe:
+1. Uruchom aplikacje
+2. Wciśnij przycisk *Zmień kolor strony* 
+3. Sprwadź tło wymienionych elementów i porównaj go z kolorem domyślnym
+4. Wciśnij przycisk *Zmień kolor strony*
+5. Sprawdź tło wymienionych elementów, czy są takie jak na początku
+------------------------------------------------------------------------------------------------------------------
+
+***WZÓR + SKRÓTY*** 
+**TC_000**
+Cel testu: 
+Warunki wstępne: 
+-
+-
+Oczekiwany rezultat: 
+Kroki testowe:
+1. 
+2. 
+3. 
+
+### SKRÓTY:
+
+##### NAGŁÓWKI: 
+\ # Nagłówek 1 → największy nagłówek /
+\ ## Nagłówek 2 → średni nagłówek /
+\ ### Nagłówek 3 → mniejszy nagłówek /
+
+##### POGRUBIENIE:
+\ **Tekst pogrubiony** /
+\ __Tekst pogrubiony__ / 
+
+##### KURSYWA:
+\ *Kursywa w tekscie* /
+\ _Kursywa w tekscie_ /
+
+##### POGRUBIENIE + KURSYWA:
+\ ***Teskt pogrubiony z kursywą*** /
+\ ___Teskt pogrubiony z kursywą___ /
+
+##### CYTATY:
+\ >To jest cytat |
+\ >>To jest cytat wewnątrz cytatu /
+
+##### LISTY 
+\ -LISTA PUNKTOWANA /
+\ 1. LISTA NUMEROWANA /
+
+##### KOD
+\ `kod źródłowy` /
