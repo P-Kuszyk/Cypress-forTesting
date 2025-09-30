@@ -180,6 +180,17 @@ Kroki testowe:
 5. Odznacz jedną opcję w liście jednokrotnego wyboru
 
 **TC_016**
+Cel testu: Sprwadź czy aktualny kolor tła aplikacji pokrywa się z domyślnym kolorem.
+Warunki wstępne: 
+- Aplikacja zostanie uruchomiona w rozdzielczości 1920x1080.
+- Kolor tła aplikacji pobrany jest z pliku CSS
+Oczekiwany rezultat: Tło aplikacji ma taki sam kolor, jaki jest ustawiony domyślnie.
+Kroki testowe:
+1. Uruchom aplikację
+2. Sprawdź jaki jest aktualny kolor tła
+3. Porównaj kolor tła z domyślnym jaki jest ustawiony dla aplikacji
+
+**TC_017**
 Cel testu: Sprawdź działanie przycisku *Zmień kolor strony*
 Warunki wstępne: 
 - Aplikacja zostanie uruchomiona w rozdzielczości 1920x1080.
@@ -191,7 +202,7 @@ Kroki testowe:
 2. Wciśnij przycisk *Zmień kolor strony* 
 3. Sprwadź tło wymienionych elementów i porównaj go z kolorem domyślnym
 
-**TC_017**
+**TC_018**
 Cel testu: Sprawdź działanie przycisku *Zmień kolor strony* oraz powrót do ustawień domyślnych
 Warunki wstępne: 
 - Aplikacja zostanie uruchomiona w rozdzielczości 1920x1080.
@@ -207,6 +218,7 @@ Kroki testowe:
 ------------------------------------------------------------------------------------------------------------------
 
 ***WZÓR + SKRÓTY*** 
+
 **TC_000**
 Cel testu: 
 Warunki wstępne: 
@@ -238,7 +250,7 @@ Kroki testowe:
 \ ___Teskt pogrubiony z kursywą___ /
 
 ##### CYTATY:
-\ >To jest cytat |
+\ >To jest cytat | 
 \ >>To jest cytat wewnątrz cytatu /
 
 ##### LISTY 

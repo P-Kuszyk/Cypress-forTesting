@@ -120,3 +120,25 @@ describe('#6 Lists', ()=> {
     cy.get('[data-cy-radio="Red"]').should('not.be.checked')
   })
 })
+
+
+  describe('#7 Website color', () => {
+    it('Check the actuall color of the website', () => {
+      cy.visit(linkToWebsite)
+      cy.get('body').should('have.css', 'background-color').and('eq','rgb(211, 211, 211)')
+    }),
+    it('Check working of the button "Zmień kolor strony"', ()=> {
+      cy.visit(linkToWebsite)
+      cy.get('body').should('have.css', 'background-color').and('eq','rgb(211, 211, 211)')
+      cy.get('.btnColor').click()
+      cy.get('body').should('have.css', 'background-color').and('eq','rgb(1, 149, 41)')
+    }),
+    it('Check working of the button "Zmień kolor strony" and after bring back the website to the default settings', () => {
+      cy.visit(linkToWebsite)
+      cy.get('body').should('have.css', 'background-color').and('eq','rgb(211, 211, 211)')
+      cy.get('.btnColor').click()
+      cy.get('body').should('have.css', 'background-color').and('eq','rgb(1, 149, 41)')
+      cy.get('.btnColor').click()
+      cy.get('body').should('have.css', 'background-color').and('eq','rgb(211, 211, 211)')
+    })
+  })
