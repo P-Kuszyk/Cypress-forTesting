@@ -17,7 +17,7 @@ body{
     border-radius: 39px;
 }
 
-.registerDiv{
+.registerDiv, .loginDiv{
     display: flex;
     flex-direction: column;
     justify-content: center;
