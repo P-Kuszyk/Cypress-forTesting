@@ -1,7 +1,7 @@
 function register() {
     
-    const userLogin = document.querySelector('.logUserInput').value
-    const userPasswd = document.querySelector('.logPasswdInput').value
+    const userLogin = document.querySelector('.regUserInput').value
+    const userPasswd = document.querySelector('.regPasswdInput').value
 
     if (userLogin && userPasswd) {
        localStorage.setItem("Username", userLogin)

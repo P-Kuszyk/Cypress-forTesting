@@ -179,6 +179,7 @@ Kroki testowe:
 4. Odnznacz wszystkie opcje w liście wielokronego wyboru
 5. Odznacz jedną opcję w liście jednokrotnego wyboru
 
+## #7 Sprawdzenie koloru strony
 **TC_016**
 Cel testu: Sprwadź czy aktualny kolor tła aplikacji pokrywa się z domyślnym kolorem.
 Warunki wstępne: 
