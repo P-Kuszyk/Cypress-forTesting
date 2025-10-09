@@ -216,47 +216,15 @@ Kroki testowe:
 3. Sprwadź tło wymienionych elementów i porównaj go z kolorem domyślnym
 4. Wciśnij przycisk *Zmień kolor strony*
 5. Sprawdź tło wymienionych elementów, czy są takie jak na początku
-------------------------------------------------------------------------------------------------------------------
 
-***WZÓR + SKRÓTY*** 
-
-**TC_000**
-Cel testu: 
+**TC_019**
+Cel testu: Sprawdzenie poprawności formularza na podstronie *Rejestracja*
 Warunki wstępne: 
--
+- Aplikacja zostanie uruchomiona w rozdzielczości 1920x1080.
 -
 Oczekiwany rezultat: 
 Kroki testowe:
 1. 
 2. 
 3. 
-
-### SKRÓTY:
-
-##### NAGŁÓWKI: 
-\ # Nagłówek 1 → największy nagłówek /
-\ ## Nagłówek 2 → średni nagłówek /
-\ ### Nagłówek 3 → mniejszy nagłówek /
-
-##### POGRUBIENIE:
-\ **Tekst pogrubiony** /
-\ __Tekst pogrubiony__ / 
-
-##### KURSYWA:
-\ *Kursywa w tekscie* /
-\ _Kursywa w tekscie_ /
-
-##### POGRUBIENIE + KURSYWA:
-\ ***Teskt pogrubiony z kursywą*** /
-\ ___Teskt pogrubiony z kursywą___ /
-
-##### CYTATY:
-\ >To jest cytat | 
-\ >>To jest cytat wewnątrz cytatu /
-
-##### LISTY 
-\ -LISTA PUNKTOWANA /
-\ 1. LISTA NUMEROWANA /
-
-##### KOD
-\ `kod źródłowy` /
+------------------------------------------------------------------------------------------------------------------
