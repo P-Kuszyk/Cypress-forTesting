@@ -2,7 +2,7 @@ const linkToWebsite = "/Website/index.html";
 
 describe('#1 Open the website', () => {
   it('Check the websie', () => {
-    cy.visit('/Website/index.html')
+    cy.visit(linkToWebsite)
   })
 })
 
