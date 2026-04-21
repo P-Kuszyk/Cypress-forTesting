@@ -1,16 +1,21 @@
 
 ***WZÓR + SKRÓTY*** 
 
-**TC_000**
-Cel testu: 
-Warunki wstępne: 
--
--
-Oczekiwany rezultat: 
-Kroki testowe:
-1. 
+**TC_000 – [Nazwa testu]**
+
+**Opis:**  
+Cel i opis testu
+
+**Warunki wstępne:**  
+Jeśli potrzebne. 
+
+**Kroki:**  
+1.  
 2. 
 3. 
+
+**Oczekiwany rezultat:**  
+Rezultat jakiego oczekujemy.
 
 ### SKRÓTY:
 

@@ -1,16 +1,20 @@
-## #1 Otwórz aplikacje
-**TC_001**
-Cel testu: Uruchomienie aplikacji w celu sprawdzenia działania, w razie zmiany adresu aplikacji.
-Warunki wstępne: 
-- Aplikacja jest uruchomiona przed uruchomieniem testu.
-- Aplikacja zostanie uruchomiona w rozdzielczości 1920x1080.
-Oczekiwany rezultat: Aplikacja uruchamia się prawidłowo, nie wyskakują błędy.
-Kroki testowe:
-1. Uruchum aplikacje
-2. Uruchom test **TC_001**
+**TC_001 - [Załadowanie strony głównej]**
 
-## #2 Sprawdź tytuł aplikacji internetowej
-**TC_002**
+*Cel testu*: Sprawdzenie, czy strona główna aplikacji ładuje się poprawnie.
+
+*Warunki wstępne*: 
+- Aplikacja jest dostępna pod poprawnym adresem URL
+
+*Kroki testowe*:
+1. Uruchum aplikacje
+
+*Oczekiwany rezultat*: 
+- Strona główna wyświetla się poprawnie
+- Brak błędów w interfejsie użytkownika
+
+
+**TC_002 - [Poprawny tytuł strony]**
+
 Cel testu: Sprawdzenie czy tytuł aplikacji jest poprawny.
 Warunki wstępne: 
 - Aplikacja posiada tytuł.

@@ -1,12 +1,10 @@
 # forTesting
-Learn testing via Cypress
+Nauka testowania z wykorzystaniem Cypress
 
-1. Create simply website 
-
-2. Create simple functionalities 
-
-3. Create simply tests via CypressCypress
+1. Stworzenie prostej strony internetowej
+2. Dodanie podstawowych funkcjonalności
+3. Napisanie prostych testów w Cypress
 
 ## forMore
 
-Please check folder *docs* - You can find here fully specification for all tests. 
+Sprawdź folder *docs* — znajdziesz tam pełną specyfikację wszystkich testów.
