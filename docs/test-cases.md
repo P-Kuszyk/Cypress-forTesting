@@ -1,4 +1,4 @@
-## Strona główna 
+## #1 Strona główna 
 **TC_001 - [Załadowanie strony głównej]**
 
 *Cel testu*: Sprawdzenie, czy strona główna aplikacji ładuje się poprawnie.
@@ -11,34 +11,43 @@
 
 *Oczekiwany rezultat*: 
 - Strona główna wyświetla się poprawnie
-- Brak błędów w interfejsie użytkownika
+- Brak błędów w interfejsie użytkownika 
 
 ---
 
 **TC_002 - [Poprawny tytuł strony]**
 
-Cel testu: Sprawdzenie czy tytuł aplikacji jest poprawny.
-Warunki wstępne: 
-- Aplikacja posiada tytuł.
-- Aplikacja zostanie uruchomiona w rozdzielczości 1920x1080.
-Oczekiwany rezultat: Tytuł jest poprawny.
-Kroki testowe:
-1. Uruchom aplikacje internetową
+*Opis*: Sprawdzenie czy tytuł strony w przeglądarce jest poprawny.
+
+*Warunki wstępne*: 
+- Aplikacja jest dostępna
+
+*Kroki testowe*:
+1. Uruchom aplikacje w przegladarce 
 2. Sprwadź tytuł w okienku przeglądarki
 
-------------------------------------------------------------------------------------
+*Oczekiwany rezultat*: 
+- Tytuł strony to "Testing"
 
-**TC_003**
-Cel testu: Sprawdzenie czy tytuł aplikacji jest niepoprawny.
-Warunki wstępne: Aplikacja posiada błędny tytuł.
-Oczekiwany rezultat: 
-- Tytuł jest niepoprawny.
-- Aplikacja zostanie uruchomiona w rozdzielczości 1920x1080.
-Kroki testowe:
-1. Uruchom aplikacje internetową
+---
+
+**TC_003 - [Niepoprawny tytuł strony]**
+
+*Opis*: Sprawdzenie czy tytuł strony w przeglądarce jest wykrywany jako błąd..
+
+*Warunki wstępne*: 
+- Aplikacja jest dostępna
+
+*Kroki testowe*:
+1. Uruchom aplikacje w przegladarce 
 2. Sprwadź tytuł w okienku przeglądarki
 
-## #3 Przyciski
+*Oczekiwany rezultat*: 
+- Tytuł strony to jest inny niż "Testing"
+
+---
+
+## #2 Przyciski
 **TC_004**
 Cel testu: Sprwadzenie czy przycisk *Rejestacja* przekierowywuje na stronę *Rejestracji*
 Warunki wstępne: 
@@ -61,7 +70,7 @@ Kroki testowe:
 2. Wciśnij przycisk *Logowanie* 
 3. Przejdź na stronę *Logowanie*
 
-## #4 Podstrona *Register*
+## #3 Podstrona *Register*
 **TC_006**
 Cel testu: Przejście na stronę rejestracji 
 Warunki wstępne: 
@@ -87,7 +96,7 @@ Kroki testowe:
 4. Wciśnij przycisk *Strona główna*
 5. Wróć na stronę główna aplikacji
 
-## #5 Pole *Textarea*
+## #4 Pole *Textarea*
 **TC_008**
 Cel testu: Sprawdź czy *Textarea* jest pusty.
 Warunki wstępne: 
@@ -127,7 +136,7 @@ Kroki testowe:
 5. Sprawdzenie czy pole tekstowe jest puste
 6. Wyczyść zawartość *Textarea* za pomocą przycisku *Usuń*
 
-## #6 Formularze i listy
+## #5 Formularze i listy
 **TC_011**
 Cel testu: Sprawdzenie czy możliwe jest zaznaczenie wszystkich opcji w liście wielokrotnego wyboru.
 Warunki wstępne: 
@@ -187,7 +196,7 @@ Kroki testowe:
 4. Odnznacz wszystkie opcje w liście wielokronego wyboru
 5. Odznacz jedną opcję w liście jednokrotnego wyboru
 
-## #7 Kolor strony
+## #6 Kolor strony
 **TC_016**
 Cel testu: Sprwadź czy aktualny kolor tła aplikacji pokrywa się z domyślnym kolorem.
 Warunki wstępne: 
